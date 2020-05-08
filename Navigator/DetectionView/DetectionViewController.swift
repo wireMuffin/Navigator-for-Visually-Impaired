@@ -140,7 +140,6 @@ class DetectionViewController: UIViewController {
         }
     }
     
-    //TODO: Change the function name
     ///this function have been modified to show "No Object Found"
     private func processClassificationObservations(_ results: [VNClassificationObservation]) {
         DispatchQueue.main.async(execute: {
