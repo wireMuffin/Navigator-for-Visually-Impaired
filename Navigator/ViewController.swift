@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  FYP
+//  Navigator
 //
 //  Created by wireMuffin on 1/9/19.
 //  Copyright © 2020 wireMuffin. All rights reserved.

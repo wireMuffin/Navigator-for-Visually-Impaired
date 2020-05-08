@@ -1,6 +1,6 @@
 //
 //  VideoCapture.swift
-//  FYP
+//  Navigator
 //
 //  Created by Shuichi Tsutsumi on 2018/06/20.
 //  Modified by wireMuffin on 20/4/2020.

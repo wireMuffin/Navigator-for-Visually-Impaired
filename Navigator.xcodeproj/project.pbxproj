@@ -35,7 +35,7 @@
 		0AF1991B244CD99200D7DB7B /* LISENCE_DetectionView */ = {isa = PBXFileReference; lastKnownFileType = text; path = LISENCE_DetectionView; sourceTree = "<group>"; };
 		0AF1991E244CDB1F00D7DB7B /* LISENCE_TrackingView */ = {isa = PBXFileReference; lastKnownFileType = text; path = LISENCE_TrackingView; sourceTree = "<group>"; };
 		0AF19920244CDBBB00D7DB7B /* LISENCE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LISENCE; sourceTree = "<group>"; };
-		5AC2B37F1EFF6561007AF914 /* FYP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AC2B37F1EFF6561007AF914 /* Navigator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AC2B3821EFF6561007AF914 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AC2B3841EFF6561007AF914 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5AC2B3871EFF6561007AF914 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 		5AC2B3761EFF6561007AF914 = {
 			isa = PBXGroup;
 			children = (
-				5AC2B3811EFF6561007AF914 /* FYP */,
+				5AC2B3811EFF6561007AF914 /* Navigator */,
 				5AC2B3801EFF6561007AF914 /* Products */,
 				5AC2B3941EFF6796007AF914 /* Frameworks */,
 			);
@@ -99,12 +99,12 @@
 		5AC2B3801EFF6561007AF914 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5AC2B37F1EFF6561007AF914 /* FYP.app */,
+				5AC2B37F1EFF6561007AF914 /* Navigator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5AC2B3811EFF6561007AF914 /* FYP */ = {
+		5AC2B3811EFF6561007AF914 /* Navigator */ = {
 			isa = PBXGroup;
 			children = (
 				0AF19919244CB78900D7DB7B /* models */,
@@ -118,7 +118,7 @@
 				5AC2B38E1EFF6561007AF914 /* Info.plist */,
 				0AF19920244CDBBB00D7DB7B /* LISENCE */,
 			);
-			path = FYP;
+			path = Navigator;
 			sourceTree = "<group>";
 		};
 		5AC2B3941EFF6796007AF914 /* Frameworks */ = {
@@ -132,9 +132,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5AC2B37E1EFF6561007AF914 /* FYP */ = {
+		5AC2B37E1EFF6561007AF914 /* Navigator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5AC2B3911EFF6561007AF914 /* Build configuration list for PBXNativeTarget "FYP" */;
+			buildConfigurationList = 5AC2B3911EFF6561007AF914 /* Build configuration list for PBXNativeTarget "Navigator" */;
 			buildPhases = (
 				5AC2B37B1EFF6561007AF914 /* Sources */,
 				5AC2B37C1EFF6561007AF914 /* Frameworks */,
@@ -144,9 +144,9 @@
 			);
 			dependencies = (
 			);
-			name = FYP;
+			name = Navigator;
 			productName = "Turn by Turn";
-			productReference = 5AC2B37F1EFF6561007AF914 /* FYP.app */;
+			productReference = 5AC2B37F1EFF6561007AF914 /* Navigator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -172,7 +172,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5AC2B37A1EFF6561007AF914 /* Build configuration list for PBXProject "FYP" */;
+			buildConfigurationList = 5AC2B37A1EFF6561007AF914 /* Build configuration list for PBXProject "Navigator" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -185,7 +185,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5AC2B37E1EFF6561007AF914 /* FYP */,
+				5AC2B37E1EFF6561007AF914 /* Navigator */,
 			);
 		};
 /* End PBXProject section */
@@ -352,9 +352,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 59AP6UC9YC;
-				INFOPLIST_FILE = FYP/Info.plist;
+				INFOPLIST_FILE = Navigator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wireMuffin.FYP;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wireMuffin.Navigator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -366,9 +366,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 59AP6UC9YC;
-				INFOPLIST_FILE = FYP/Info.plist;
+				INFOPLIST_FILE = Navigator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wireMuffin.FYP;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wireMuffin.Navigator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -378,7 +378,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5AC2B37A1EFF6561007AF914 /* Build configuration list for PBXProject "FYP" */ = {
+		5AC2B37A1EFF6561007AF914 /* Build configuration list for PBXProject "Navigator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5AC2B38F1EFF6561007AF914 /* Debug */,
@@ -387,7 +387,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5AC2B3911EFF6561007AF914 /* Build configuration list for PBXNativeTarget "FYP" */ = {
+		5AC2B3911EFF6561007AF914 /* Build configuration list for PBXNativeTarget "Navigator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5AC2B3921EFF6561007AF914 /* Debug */,
